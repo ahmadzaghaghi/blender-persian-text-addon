@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Convert Persian Text",
     "blender": (4, 1, 0),
-    "version": (0, 0, 1),
+    "version": (0, 1, 0),
     "category": "Object",
     "author": "Ahmad Zaghaghi",
     "description": "This is an add-on for writing in Persian in Blender."
