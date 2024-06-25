@@ -8,6 +8,23 @@ bl_info = {
 }
 
 import bpy
+import sys
+import subprocess
+import importlib
+
+# لیست پکیج‌هایی که باید نصب شوند
+packages = ['arabic_reshaper', 'python-bidi']
+
+def install_packages():
+    for package in packages:
+        try:
+            importlib.import_module(package)
+        except ImportError:
+            python_executable = sys.executable
+            subprocess.check_call([python_executable, "-m", "pip", "install", package])
+
+install_packages()
+
 import arabic_reshaper
 from bidi.algorithm import get_display
 
