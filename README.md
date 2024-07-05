@@ -5,10 +5,9 @@ This is an add-on for writing in Persian in Blender.
 ## Installation
 
 
-1. Download the `Persian Text Converter.py` and `Install_libraries.bat`.
-2. Run `Install_libraries.bat` file and follow instructions.
+1. Download `blender-persian-text-addon.zip` 
 2. Open Blender and go to `Edit > Preferences > Add-ons`.
-3. Click `Install` and select "Persian Text Converter.py" file.
+3. Click `Install` and select `blender-persian-text-addon.zip` file.
 4. Enable the add-on.
 
 ## Usage
